@@ -11,15 +11,17 @@
     transform: translateY(-3px);
 }
 .socialIcon{
+    color: black;
     box-shadow: 5px 5px 10px  #666464;
     background-color: rgb(255, 255, 255);
     padding: 5px 25px;
 }
 .socialIcon:hover{
-    background-color: rgb(196, 196, 196);
+    /* background-color: rgb(196, 196, 196); */
+    color: white;
+    background-color: rgb(192, 0, 58);
 }
 .banner hr{
-    /* border: 1px solid black; */
     height: 2px;
     background: black;
 }

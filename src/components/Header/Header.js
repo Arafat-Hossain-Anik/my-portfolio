@@ -11,21 +11,6 @@ const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
 const Header = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container-fluid p-2">
-                    <a className="navbar-brand fw-bold fs-4" href="/home">Anik's World</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav fs-5">
-                            <a className="nav-link active" aria-current="page" href="/home">Home</a>
-                            <a className="nav-link" href="/home">Features</a>
-                            <a className="nav-link" href="home">Pricing</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
             {/* top banner */}
             <div className="banner container mt-lg-5 lh-lg">
                 <div className="row pt-lg-5">
@@ -34,18 +19,19 @@ const Header = () => {
                         <h1 className='fs-custom fw-bold'>Hi,This is <br /> <span className='header-color'>Arafat Hossain Anik </span></h1>
                         <h1 className='fs-custom fw-bold'> <span className='header-color'> MERN Stack </span> Developer</h1>
                         <p className='fs-5 text-secondary'>I build both front-end and back-end by using react,express,node and mongodb. I am also familiar with python and My Sql. I have done 5 front-end projects and 2 back-end projects which are fully responsive.</p>
+                        {/* <a className='resume-btn rounded' href='/resume/my-resume.pdf' download="MERN STACK resume of Ah_Anik">Download Resume</a> */}
                         {/* find me at */}
                         <div>
                             <h4 className='mt-4'>Find Me</h4>
                             <div className='fs-3 mt-4 d-flex'>
                                 <div className='icon-container'>
-                                    <a className='socialIcon rounded text-dark' href="https://github.com/Arafat-Hossain-Anik" rel='noreferrer' target={"_blank"}> {githubIcon}</a>
+                                    <a className='socialIcon rounded' href="https://github.com/Arafat-Hossain-Anik" rel='noreferrer' target={"_blank"}> {githubIcon}</a>
                                 </div>
                                 <div className='icon-container'>
-                                    <a className='socialIcon rounded ms-4 text-dark' href="https://www.linkedin.com/in/ah-anik/" rel='noreferrer' target={"_blank"}> {linkedInIcon}</a>
+                                    <a className='socialIcon rounded ms-4' href="https://www.linkedin.com/in/ah-anik/" rel='noreferrer' target={"_blank"}> {linkedInIcon}</a>
                                 </div>
                                 <div className='icon-container'>
-                                    <a className='socialIcon rounded ms-4 text-dark' href="https://www.facebook.com/arafatskd/" rel='noreferrer' target={"_blank"}> {facebookIcon}</a>
+                                    <a className='socialIcon rounded ms-4' href="https://www.facebook.com/arafatskd/" rel='noreferrer' target={"_blank"}> {facebookIcon}</a>
                                 </div>
                             </div>
                         </div>

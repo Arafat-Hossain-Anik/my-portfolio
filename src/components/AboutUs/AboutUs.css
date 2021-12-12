@@ -1,0 +1,15 @@
+.resume-btn{
+    font-weight: bold;
+    /* font-size: 20px; */
+    text-transform: uppercase;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 0, 58);
+    box-shadow: 5px 5px 10px  #666464;
+}
+.resume-btn:hover{
+    color: rgb(192, 0, 58);
+    background-color: white;
+    transition: background-color .5s ease;
+}

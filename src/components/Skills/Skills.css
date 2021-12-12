@@ -1,0 +1,21 @@
+.skill-box{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    /* background-color: rgb(233, 230, 230); */
+    margin: 5px;
+    /* box-shadow: 5px 5px 10px gray; */
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(192, 0, 58);
+    text-align: center;
+}
+.skill-box:hover{
+    background-color: rgb(192, 0, 58);
+    color: white;
+    transition: background-color 1s ease;
+}
+.skill-container hr{
+    height: 2px;
+    background: black;
+}
