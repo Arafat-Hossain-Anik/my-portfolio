@@ -10,6 +10,10 @@ const AboutUs = () => {
                 <div className='row align-items-center fs-5'>
                     <div className='col-12 col-lg-6'>
                         <img className='img-fluid' src={myImg} alt="" />
+                        {/* <div className='fw-bold text-center'>
+                            <h5>Arafat Hossain Anik</h5>
+                            <h6>Full Stack Web Developer</h6>
+                        </div> */}
                     </div>
                     <div className='col-12 col-lg-6'>
                         <div className='text-secondary'>
@@ -31,7 +35,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                         <div className='mt-4'>
-                            <a className='resume-btn rounded' href='/resume/my-resume.pdf' download="MERN STACK resume of Ah_Anik" target='_blank'>Download Resume</a>
+                            <a className='resume-btn rounded fs-6' href='/resume/my-resume.pdf' download="MERN STACK resume of Ah_Anik" target='_blank'>Download Resume</a>
                         </div>
                     </div>
                 </div>

@@ -5,8 +5,9 @@
     font-family: 'Playball', cursive;
 }
 .contact-part{
-    border: 1px solid rgb(196, 196, 196);
-    /* background-color: rgb(204, 204, 204); */
+    /* border: 1px solid rgb(196, 196, 196); */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 .msg-btn{
     padding: 10px 20px;
@@ -21,8 +22,9 @@
     padding: 0 5px;
 }
 .msg-btn:hover{
-    background-color: white;
-    color: rgb(192, 0, 58);
+    background-color: rgb(143, 0, 43);
+    /* color: rgb(192, 0, 58); */
+    color: rgb(255, 255, 255);
     transition: background-color .5s;
 }
 .msg-btn:hover .arrowIcon{
