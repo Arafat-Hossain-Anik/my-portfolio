@@ -1,6 +1,10 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactUs.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+const arrowIcon = <FontAwesomeIcon icon={faArrowRight} />
 
 const ContactUs = () => {
     const form = useRef();
@@ -21,7 +25,7 @@ const ContactUs = () => {
     return (
         <div className='contactus-container aboutus-container pb-5'>
             <div className='container'>
-                <h2 className='fw-bold text-center mb-5'>-Contact Me-</h2>
+                <h2 className='fw-bold text-center mb-5 pt-5 fs-custom section-header'>Get In Touch</h2>
                 <div className='row'>
                     <div className="col-12 col-lg-6">
 
@@ -50,9 +54,14 @@ const ContactUs = () => {
                             </div>
                             <div className="form-floating mb-3">
                                 <textarea className="form-control" placeholder="Email-Body" id="floatingTextarea2" style={{ height: "200px" }} name='body' required></textarea>
-                                <label htmlFor="floatingTextarea2">Body</label>
+                                <label htmlFor="floatingTextarea2">Your Message</label>
                             </div>
-                            <input type="submit" className="resume-btn rounded" value='Send Message' />
+                            {/* <input type="submit" className="msg-btn rounded" value={arrowIcon} /> */}
+                            <button type="submit" className="msg-btn rounded">
+                                <div className='d-flex'>
+                                    <div>Send Message</div> <div className='arrowIcon'>{arrowIcon}</div>
+                                </div>
+                            </button>
                         </form>
                     </div>
                 </div >

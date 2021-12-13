@@ -4,8 +4,8 @@ import skillImg from '../../images/skill.jpg';
 
 const Skills = () => {
     return (
-        <div id='skill' className='container mb-5 skill-container'>
-            <h2 className='text-center fw-bold mt-4'>-Skills-</h2>
+        <div id='skill' className='container skill-container'>
+            <h2 className='text-center fw-bold pt-5 fs-custom section-header'>My Expertise</h2>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
                     <img className='img-fluid' src={skillImg} alt="" />
@@ -54,7 +54,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-            <hr />
+            {/* <hr /> */}
         </div>
     );
 };

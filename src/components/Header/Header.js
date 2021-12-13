@@ -40,7 +40,7 @@ const Header = () => {
                         <img className='img-fluid mt-4 mt-lg-0' src={headerImg} alt="" />
                     </div>
                 </div>
-                <hr />
+                {/* <hr /> */}
             </div>
         </div >
     );

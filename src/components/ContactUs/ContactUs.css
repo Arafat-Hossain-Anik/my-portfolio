@@ -1,4 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+.section-header{
+    /* font-family: 'Nothing You Could Do', cursive; */
+    font-family: 'Playball', cursive;
+}
 .contact-part{
     border: 1px solid rgb(196, 196, 196);
-    background-color: rgb(204, 204, 204);
+    /* background-color: rgb(204, 204, 204); */
+}
+.msg-btn{
+    padding: 10px 20px;
+    background-color: rgb(192, 0, 58);
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    box-shadow: 3px 6px 9px gray;
+    font-weight: bold;
+}
+.arrowIcon{
+    padding: 0 5px;
+}
+.msg-btn:hover{
+    background-color: white;
+    color: rgb(192, 0, 58);
+    transition: background-color .5s;
+}
+.msg-btn:hover .arrowIcon{
+    transform: translateX(10px);
+    transition: transform .5s;
 }
