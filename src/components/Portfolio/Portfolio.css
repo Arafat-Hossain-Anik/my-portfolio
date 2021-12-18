@@ -1,0 +1,8 @@
+.card-img{
+    cursor: pointer;
+}
+.card-img:hover{
+    transform: scale(105%);
+    transition: transform 1s;
+    overflow: hidden;
+}
