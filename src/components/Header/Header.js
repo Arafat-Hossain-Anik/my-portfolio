@@ -3,7 +3,6 @@ import './Header.css';
 import headerImg from '../../images/second-circle.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
 const githubIcon = <FontAwesomeIcon icon={faGithubSquare} />
 const facebookIcon = <FontAwesomeIcon icon={faFacebook} />
 const linkedInIcon = <FontAwesomeIcon icon={faLinkedin} />
