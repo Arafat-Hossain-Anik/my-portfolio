@@ -6,3 +6,18 @@
     transition: transform 1s;
     overflow: hidden;
 }
+.card-link{
+    /* text-transform: uppercase;
+    box-shadow: 3px 3px 5px  #666464;
+    background-color: rgb(143, 0, 43);
+    color: rgb(255, 255, 255);
+    padding: 5px 25px; */
+    text-decoration: none;
+}
+.card-link:hover{
+    transform: translateY(-3px);
+    color: white;
+    background-color: rgb(83, 0, 29);
+    transition: background-color .7s, transform .5s;
+    /* transition:  .5s; */
+}

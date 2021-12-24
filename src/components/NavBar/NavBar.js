@@ -10,10 +10,10 @@ const NavBar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav fs-5">
+                        <div className="navbar-nav ms-auto me-1 fs-5">
                             <a className="nav-link active" aria-current="page" href="/home">Home</a>
                             <a className="nav-link" href="#about">About Us</a>
-                            <a className='nav-link' href='/resume/my-resume.pdf' download="MERN STACK resume of Ah_Anik" target='_blank'>Resume</a>
+                            <a className='nav-link' href='/resume/Ah_Anik_MERN_STACK_RESUME.pdf' download="Ah_Anik_MERN_STACK_RESUME" target='_blank'>Resume</a>
                             <a className="nav-link" href="#skill">Skills</a>
                             <a className="nav-link" href="/portfolio">Portfolio</a>
                         </div>

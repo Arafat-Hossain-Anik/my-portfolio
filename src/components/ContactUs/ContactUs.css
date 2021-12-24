@@ -17,6 +17,7 @@
     border: 0;
     box-shadow: 3px 6px 9px gray;
     font-weight: bold;
+    text-decoration: none;
 }
 .arrowIcon{
     padding: 0 5px;
