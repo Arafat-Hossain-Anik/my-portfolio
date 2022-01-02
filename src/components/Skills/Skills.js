@@ -1,11 +1,11 @@
 import React from 'react';
 import './Skills.css';
-import skillImg from '../../images/skill.jpg';
+import skillImg from '../../images/skill.png';
 
 const Skills = () => {
     return (
         <div id='skill' className='container skill-container'>
-            <h2 className='text-center fw-bold pt-5 fs-custom section-header'>My Expertise</h2>
+            <h2 className='text-center fw-bold pt-3 fs-custom section-header'>My Expertise</h2>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
                     <img className='img-fluid' src={skillImg} alt="" />

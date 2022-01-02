@@ -4,7 +4,7 @@ import './ContactUs.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import msgImg from '../../images/message.jpg';
+import msgImg from '../../images/message.png';
 
 const githubIcon = <FontAwesomeIcon icon={faGithubSquare} />
 const facebookIcon = <FontAwesomeIcon icon={faFacebook} />
@@ -30,9 +30,9 @@ const ContactUs = () => {
         e.target.reset();
     };
     return (
-        <div className='contactus-container aboutus-container pb-5'>
+        <div className='contactus-container pb-5' id='contact'>
             <div className='container'>
-                <h2 className='fw-bold text-center mb-5 pt-5 fs-custom section-header'>Get In Touch</h2>
+                <h2 className='fw-bold text-center mb-5 pt-3 fs-custom section-header'>Get In Touch</h2>
                 <div className='row justify-content-center'>
                     <div className="col-12 col-lg-5 ml-lg-5 contact-part rounded">
                         <div className='text-center'>

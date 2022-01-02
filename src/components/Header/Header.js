@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import headerImg from '../../images/second-circle.png'
+import headerImg from '../../images/second-circle-s.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const githubIcon = <FontAwesomeIcon icon={faGithubSquare} />
@@ -12,7 +12,7 @@ const Header = () => {
         <div>
             {/* top banner */}
             <div className="banner container mt-lg-5 lh-lg">
-                <div className="row pt-lg-5">
+                <div className="row">
                     <div className="col-12 col-lg-6">
                         <p className='fs-5 text-secondary'>Welcome To My World</p>
                         <h1 className='fs-custom fw-bold'>Hi,This is <br /> <span className='header-color'>Arafat Hossain Anik </span></h1>

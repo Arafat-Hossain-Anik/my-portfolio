@@ -12,10 +12,11 @@ const NavBar = () => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto me-1 fs-5">
                             <a className="nav-link active" aria-current="page" href="/home">Home</a>
-                            <a className="nav-link" href="#about">About Us</a>
-                            <a className='nav-link' href='/resume/Ah_Anik_MERN_STACK_RESUME.pdf' download="Ah_Anik_MERN_STACK_RESUME" target='_blank'>Resume</a>
+                            <a className="nav-link" href="#about">About Me</a>
                             <a className="nav-link" href="#skill">Skills</a>
-                            <a className="nav-link" href="/portfolio">Portfolio</a>
+                            <a className="nav-link" href="#portfolio">Portfolio</a>
+                            <a className="nav-link" href="#contact">Contact Me</a>
+                            <a className='nav-link' href='/resume/Ah_Anik_MERN_STACK_RESUME.pdf' download="Ah_Anik_MERN_STACK_RESUME" target='_blank'>Resume</a>
                         </div>
                     </div>
                 </div>

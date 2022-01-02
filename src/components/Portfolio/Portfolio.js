@@ -12,14 +12,16 @@ const Portfolio = () => {
     }, []);
 
     return (
-        <div className='container'>
-            <h2 className='fw-bold text-center mb-5 pt-5 fs-custom section-header'>Portfolio</h2>
-            <div className="card-container">
-                <div className="row row-cols-1 row-cols-md-3 g-4">
-                    {
-                        projects.map(project => <PortfolioItem key={project._id} project={project}>
-                        </PortfolioItem>)
-                    }
+        <div className='portfolio-container pb-5'>
+            <div className='container' id='portfolio'>
+                <h2 className='fw-bold text-center mb-5 pt-3 fs-custom section-header'>Portfolio</h2>
+                <div className="card-container">
+                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                        {
+                            projects.map(project => <PortfolioItem key={project._id} project={project}>
+                            </PortfolioItem>)
+                        }
+                    </div>
                 </div>
             </div>
         </div>
