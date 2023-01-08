@@ -13,7 +13,7 @@ const PortfolioItem = (props) => {
         <div className="col">
             <div className="card h-100">
                 <a className='' rel='noreferrer' target={"_blank"} href={liveSiteLink}>
-                    <img src={img} className="img-fluid card-img-top card-img" alt="..." style={{ height: "300px", objectFit: "cover", objectPosition: " 100% 0%" }} />
+                    <img src={img} className="img-fluid card-img-top card-img" loading='lazy' alt="..." style={{ height: "300px", objectFit: "cover", objectPosition: " 100% 0%" }} />
                 </a>
 
                 <div className="card-body">

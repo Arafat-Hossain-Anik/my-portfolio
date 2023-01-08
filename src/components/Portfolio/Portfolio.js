@@ -8,7 +8,7 @@ const Portfolio = () => {
         fetch('https://ah-anik-portfolio.onrender.com/projects')
             .then(response => response.json())
             .then(data => setProjects(data));
-        console.log(projects);
+        //console.log(projects);
     }, []);
 
     return (
