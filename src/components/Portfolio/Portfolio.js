@@ -5,7 +5,7 @@ import './Portfolio.css';
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('https://safe-mountain-43737.herokuapp.com/projects')
+        fetch('https://ah-anik-portfolio.onrender.com/projects')
             .then(response => response.json())
             .then(data => setProjects(data));
         console.log(projects);
