@@ -14,37 +14,38 @@ const Skills = () => {
                     <div>
                         <h5 className="fw-bold"  >Expertise Technology</h5 >
                         <div className=''>
+                            <p className="skill-box">C</p>
+                            <p className="skill-box">C++</p>
+                            <p className="skill-box">JAVASCRIPT</p>
                             <p className="skill-box">HTML</p>
                             <p className="skill-box">CSS</p>
-                            <p className="skill-box">JAVASCRIPT</p>
-                            <p className="skill-box">REACT</p>
                             <p className="skill-box">BOOTSTRAP</p>
+                            <p className="skill-box">REACT</p>
                             <p className="skill-box">FIREBASE</p>
-                            <p className="skill-box">MY SQL</p>
+                            <p className="skill-box">REST-API</p>
+                            <p className="skill-box">MySQL</p>
                         </div>
                     </div>
                     <div>
                         <h5 className="fw-bold"  >Comfortable Technology</h5 >
                         <div>
-                            <p className="skill-box">MONGODB</p>
+                            <p className="skill-box">PYTHON</p>
                             <p className="skill-box">EXPRESS</p>
+                            <p className="skill-box">MONGODB</p>
                             <p className="skill-box">NODE JS</p>
                             <p className="skill-box">TAILWIND CSS</p>
-                            <p className="skill-box">HEROKU</p>
-                            <p className="skill-box">NETLIFY</p>
                         </div>
                     </div>
                     <div>
                         <h5 className="fw-bold"  >Familiar Technology</h5 >
                         <div>
-                            <p className="skill-box">PYTHON</p>
+                            <p className="skill-box">Java</p>
                             <p className="skill-box">C#</p>
-                            <p className="skill-box">TYPESCRIPT</p>
                             <p className="skill-box">MATERIAL UI</p>
                         </div>
                     </div>
                     <div>
-                        <h5 className="fw-bold"  >Expertise Tools</h5 >
+                        <h5 className="fw-bold">Expertise Tools</h5 >
                         <div>
                             <p className="skill-box">GITHUB</p>
                             <p className="skill-box">VS CODE</p>

@@ -14,10 +14,10 @@ const Header = () => {
             <div className="banner container mt-lg-5 lh-lg">
                 <div className="row">
                     <div className="col-12 col-lg-6">
-                        <p className='fs-5 text-secondary'>Welcome To My World</p>
+                        {/* <p className='fs-5 text-secondary'>Welcome To My World</p> */}
                         <h1 className='fs-custom fw-bold'>Hi,This is <br /> <span className='header-color'>Arafat Hossain Anik </span></h1>
-                        <h1 className='fs-custom fw-bold'> <span className='header-color'> MERN Stack </span> Developer</h1>
-                        <p className='fs-5 text-secondary'>I build both front-end and back-end by using react,express,node and mongodb. I am also familiar with python and My Sql. I have done 5 front-end projects and 2 back-end projects which are fully responsive.</p>
+                        <h1 className='fs-custom fw-bold'> <span className='header-color'> Front-End </span> Developer</h1>
+                        <p className='fs-5 text-secondary' style={{ textAlign: "justify" }}>Welcome to my portfolio website, showcasing my diverse skill set as a front-end developer. I specialize in React Js and have a deep understanding of programming concepts, allowing me to create innovative solutions and improve existing ones.</p>
                         {/* <a className='resume-btn rounded' href='/resume/my-resume.pdf' download="MERN STACK resume of Ah_Anik">Download Resume</a> */}
                         {/* find me at */}
                         <div>

@@ -16,9 +16,9 @@ const AboutUs = () => {
                         </div> */}
                     </div>
                     <div className='col-12 col-lg-6'>
-                        <div className='text-secondary'>
-                            <p>Hi, I am a junior full stack developer with 7 projects experience. Currently, I am studying Computer Science and Engineering in Patuakhali Science and Technology University. I am very much interested to learning technology in IT field. I have perticipated in few programming competiton.Now, I am also trying to do better in this field. I have solved 100+ problems in URI online judge and  codeforces. Still, learning new algorithm and problem solving technique.</p>
-                            <p>My future target is to be a senior full stack developer by learning new technology like php,laravel,vue js.</p>
+                        <div className='text-secondary' style={{ textAlign: "justify" }}>
+                            <p>I am a Junior Front-End Developer. Currently, I am studying Computer Science and Engineering in Patuakhali Science and Technology University. I am very much interested to learning technology in IT field. I have perticipated in few programming competiton.Now, I am also trying to do better in this field. I have solved 300+ problems in URI online judge and  codeforces. Still, learning new algorithm and problem solving technique.</p>
+                            <p>My future target is pursuing a career in a dynamic IT company where I can utilize my strong academic background and technical skills to contribute to the development and success of that company, while continuously learning and adapting to new technologies and advancements in the field.</p>
                         </div>
                         <h3 className='text-center fw-bold mt-3 mb-3'>Personal Info</h3>
                         <div className='row'>
@@ -31,7 +31,7 @@ const AboutUs = () => {
                             <div className='col-12 col-sm-6'>
                                 <p><span className='fw-bold'>Address: </span>Patuakhali, Bangladesh</p>
                                 <p><span className='fw-bold'>Phone: </span>+8801757176953</p>
-                                <p><span className='fw-bold'>E-mail: </span>arafatskd@gmail.com</p>
+                                <p><span className='fw-bold'>E-mail: </span> <a href="mailto:arafat15@cse.pstu.ac.bd" style={{ color: "black" }}>arafat15@cse.pstu.ac.bd</a></p>
                             </div>
                         </div>
                         <div className='mt-4'>
