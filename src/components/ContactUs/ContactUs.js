@@ -30,7 +30,7 @@ const ContactUs = () => {
         e.target.reset();
     };
     return (
-        <div className='contactus-container pb-5' id='contact'>
+        <div className='contactus-container pb-5' id='contact' data-aos="fade-up">
             <div className='container'>
                 <h2 className='fw-bold text-center mb-5 pt-3 fs-custom section-header'>Get In Touch</h2>
                 <div className='row justify-content-center'>
@@ -39,14 +39,14 @@ const ContactUs = () => {
                             <img className='img-fluid' src={msgImg} alt="" style={{ height: '250px' }} />
                         </div>
                         <div className=''>
-                            <h4>Hi,There</h4>
-                            <h6 className='text-secondary fw-bold'>Thank You For Being Interested In Me</h6>
+                            {/* <h4>Hi,There</h4> */}
+                            <h4 className='text-secondary fw-bold'>Thank You For Being Interested In Me</h4>
                             <p className='text-secondary'>Send me direct message for any query and connect with me through facebook, linkedIn and have a look on my work through github. <br /> <span className='fw-bold'>Have A Great Day.</span></p>
                             <h6 className='text-secondary'><span className='fw-bold'>Phone:</span> +8801757176953</h6>
-                            <h6 className='text-secondary'><span className='fw-bold'>E-mail:</span> arafatskd@gmail.com</h6>
+                            <h6 className='text-secondary'><span className='fw-bold'>E-mail: </span><a href="mailto:arafat15@cse.pstu.ac.bd" className='text-secondary'>arafat15@cse.pstu.ac.bd</a></h6>
                         </div>
-                        <div className='pb-3'>
-                            <h5 className='mt-2 text-secondary fw-bold'>Find Me</h5>
+                        <div className='py-3'>
+                            {/* <h5 className='mt-2 text-secondary fw-bold'>Find Me</h5> */}
                             <div className='fs-4 mt-2 d-flex'>
                                 <div className='icon-container'>
                                     <a className='socialIcon rounded' href="https://github.com/Arafat-Hossain-Anik" rel='noreferrer' target={"_blank"}> {githubIcon}</a>

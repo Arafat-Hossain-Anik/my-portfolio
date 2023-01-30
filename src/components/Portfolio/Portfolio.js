@@ -12,7 +12,7 @@ const Portfolio = () => {
     }, []);
 
     return (
-        <div className='portfolio-container pb-5'>
+        <div className='portfolio-container pb-5' data-aos="fade-up">
             <div className='container' id='portfolio'>
                 <h2 className='fw-bold text-center mb-5 pt-3 fs-custom section-header'>Projects Showcase</h2>
                 <div className="card-container">

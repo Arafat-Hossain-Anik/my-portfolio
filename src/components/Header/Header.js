@@ -13,7 +13,7 @@ const Header = () => {
             {/* top banner */}
             <div className="banner container mt-lg-5 lh-lg">
                 <div className="row">
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6" data-aos="fade-right" data-aos-easing="linear">
                         {/* <p className='fs-5 text-secondary'>Welcome To My World</p> */}
                         <h1 className='fs-custom fw-bold'>Hi,This is <br /> <span className='header-color'>Arafat Hossain Anik </span></h1>
                         <h1 className='fs-custom fw-bold'> <span className='header-color'> Front-End </span> Developer</h1>
@@ -35,7 +35,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6" data-aos="fade-left" data-aos-easing="linear">
                         <img className='img-fluid mt-4 mt-lg-0' src={headerImg} alt="" />
                     </div>
                 </div>

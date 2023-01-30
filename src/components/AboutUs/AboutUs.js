@@ -4,7 +4,7 @@ import myImg from '../../images/another-s.png'
 
 const AboutUs = () => {
     return (
-        <div className='aboutus-container'>
+        <div className='aboutus-container' data-aos="fade-up">
             <div id='about' className='container pb-3'>
                 <h2 className='text-center fw-bold pt-3 mb-5 fs-custom section-header'>A Little Bit About Me</h2>
                 <div className='row align-items-center fs-5'>

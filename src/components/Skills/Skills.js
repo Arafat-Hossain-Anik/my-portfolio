@@ -4,7 +4,7 @@ import skillImg from '../../images/skill.png';
 
 const Skills = () => {
     return (
-        <div id='skill' className='container skill-container'>
+        <div id='skill' className='container skill-container' data-aos="fade-up">
             <h2 className='text-center fw-bold pt-3 fs-custom section-header'>My Expertise</h2>
             <div className='row align-items-center'>
                 <div className='col-12 col-lg-6'>
