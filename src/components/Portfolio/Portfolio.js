@@ -5,7 +5,7 @@ import './Portfolio.css';
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('https://ah-anik-portfolio.onrender.com/projects')
+        fetch('https://portfolio-server-sigma-wine.vercel.app/projects')
             .then(response => response.json())
             .then(data => setProjects(data));
         //console.log(projects);
