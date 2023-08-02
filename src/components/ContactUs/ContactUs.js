@@ -60,7 +60,7 @@ const ContactUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6 ms-lg-5 contact-part rounded p-3">
+                    <div className="col-12 col-lg-6 ms-lg-3 contact-part rounded p-3">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className='d-flex flex-wrap'>
                                 <div className="col-12 col-lg-6 form-floating mb-3">

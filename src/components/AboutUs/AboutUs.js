@@ -17,8 +17,8 @@ const AboutUs = () => {
                     </div>
                     <div className='col-12 col-lg-6'>
                         <div className='text-secondary' style={{ textAlign: "justify" }}>
-                            <p>Currently, I am studying Computer Science and Engineering in Patuakhali Science and Technology University. My enthusiasm for learning about technology in the IT field is boundless. I have actively participated in several programming competitions and continuously strive to improve my skills in this domain I have solved 300+ problems in Codeforces and Bee Crowed. Still, learning new algorithm and problem solving technique.</p>
-                            <p>My future goal is to work in a vibrant IT company, where I can utilize my academic background and technical skills to contribute to the company's growth and make a positive impact on society, while continuously learning and adapting to new technologies and advancements in the field.</p>
+                            <p>Currently, I am studying Computer Science and Engineering in Patuakhali Science and Technology University. My enthusiasm for learning about technology in the IT field is boundless. I have actively participated in several programming competitions and continuously strive to improve my skills in this domain I have solved 300+ problems in Codeforces and BeeCrowd. Still, learning new algorithm and problem solving techniques.</p>
+                            <p>My future goal is to contribute significantly to the IT field, aiming to bring values through my expertise and technical skills. Additionally, I want to make a positive impact on society by continuously learning and adapting to new technologies and advancements in the field.</p>
                         </div>
                         <h3 className='text-center fw-bold mt-3 mb-3'>Personal Info</h3>
                         <div className='row'>

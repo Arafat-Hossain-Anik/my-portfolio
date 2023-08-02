@@ -27,7 +27,7 @@ const Header = () => {
                         {/* <p className='fs-5 text-secondary'>Welcome To My World</p> */}
                         <h1 className='fs-custom fw-bold'>Hello Everyone,This is <br /> <span className='header-color'>Arafat Hossain Anik </span></h1>
                         <h2 className='fw-bold fs-1'> I'm A <span className='header-color type-writter' ref={el}></span></h2>
-                        <p className='fs-5 text-secondary' style={{ textAlign: "justify" }}>Welcome to my portfolio. I'm a software engineer specializing in React and truly passionate about the field of Machine Learning, specially in the field of Natural Language Processing. With strong programming concepts, I love crafting innovative solutions. Let's explore technology together!</p>
+                        <p className='fs-5 text-secondary' style={{ textAlign: "justify" }}>Welcome to my portfolio. I'm a software engineer specializing in React and truly passionate about the field of Machine Learning, specially in Natural Language Processing. With strong programming concepts, I love crafting innovative solutions. Let's explore technology together!</p>
                         {/* <a className='resume-btn rounded' href='/resume/my-resume.pdf' download="MERN STACK resume of Ah_Anik">Download Resume</a> */}
                         {/* find me at */}
                         <div>
