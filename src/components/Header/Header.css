@@ -1,27 +1,33 @@
-.fs-custom{
+.fs-custom {
     font-size: 50px;
 }
-.header-color{
+
+.header-color {
     color: rgb(192, 0, 58);
 }
-.icon-container{
+
+.icon-container {
     transition: transform .35s;
 }
-.icon-container:hover{
+
+.icon-container:hover {
     transform: translateY(-3px);
 }
-.socialIcon{
+
+.socialIcon {
     color: black;
-    box-shadow: 5px 5px 10px  #666464;
+    box-shadow: 5px 5px 10px #666464;
     background-color: rgb(255, 255, 255);
     padding: 5px 25px;
 }
-.socialIcon:hover{
+
+.socialIcon:hover {
     /* background-color: rgb(196, 196, 196); */
     color: white;
     background-color: rgb(192, 0, 58);
 }
-.banner hr{
+
+.banner hr {
     height: 2px;
     background: black;
 }
