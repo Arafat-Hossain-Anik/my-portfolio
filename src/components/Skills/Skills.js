@@ -23,8 +23,6 @@ const Skills = () => {
                     <div>
                         <h5 className="fw-bold"  >Web Development</h5 >
                         <div>
-                            <p className="skill-box">HTML</p>
-                            <p className="skill-box">CSS</p>
                             <p className="skill-box">React</p>
                             <p className="skill-box">Node js</p>
                             <p className="skill-box">Firebase Auth</p>

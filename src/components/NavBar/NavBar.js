@@ -17,7 +17,7 @@ const NavBar = () => {
                             <a className="nav-link" href="#skill">Skills</a>
                             <a className="nav-link" href="#portfolio">Projects</a>
                             <a className="nav-link" href="#contact">Contact Me</a>
-                            <a className='nav-link' href='/resume/Anik_Front_End_Resume.pdf' download="Anik_Front_End_Resume" target='_blank'>Resume</a>
+                            <a className='nav-link' href='/resume/AH_Anik_Software_Engineer_CV.pdf' download="AH_Anik_Software_Engineer_CV.pdf" target='_blank'>Resume</a>
                         </div>
                     </div>
                 </div>
