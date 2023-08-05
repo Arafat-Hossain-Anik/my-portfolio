@@ -35,7 +35,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                         <div className='mt-4 pb-4'>
-                            <a className='resume-btn rounded fs-6' href='/resume/Ah_Anik_MERN_STACK_RESUME.pdf' download="AH_Anik_Software_Developer.pdf" target='_blank'>Download Resume</a>
+                            <a className='resume-btn rounded fs-6' href='/resume/AH_Anik_Software_Engineer_CV.pdf' download="AH_Anik_Software_Engineer_CV.pdf" target='_blank'>Download Resume</a>
                         </div>
                     </div>
                 </div>
